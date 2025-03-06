@@ -18,5 +18,5 @@ export function useSelectedAccountState() {
       ? undefined
       : account,
     setAccount,
-  ];
+  ] as const;
 }
